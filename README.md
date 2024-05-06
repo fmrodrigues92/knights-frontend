@@ -1,24 +1,26 @@
-# fmr-knights-frontend
+# Projeto Vuejs com Docker
 
-## Project setup
-```
-npm install
-```
+Este é um exemplo de projeto Vuejs com Docker.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Configuração
 
-### Compiles and minifies for production
-```
-npm run build
+1. Clone este repositório:
+
+```bash
+git clone https://github.com/fmrodrigues92/knights-frontend
+cd knights-frontend
 ```
 
-### Lints and fixes files
-```
-npm run lint
+2. Execute o seguinte comando para construir os contêineres Docker e iniciar a aplicação:
+
+```bash
+docker-compose up --build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Isso irá criar e iniciar os contêineres Docker para o servidor vuejs
+
+## Acesso à Aplicação
+
+A aplicação estará disponível em `http://localhost:8080`.
+
+...
