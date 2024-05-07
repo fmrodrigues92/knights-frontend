@@ -247,7 +247,7 @@
             keyAttribute: '',
             };
             // Recarregar a lista de knights após a criação do herói
-            this.$emit('fetch-knights');
+            this.fetchKnights();
         } catch (error) {
             console.error('Erro ao criar herói:', error);
         }
